@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <header class="border">
+        FORMULARIO
+    </header>
+    <main class="border">
+    <section class="border principal">
+        <div class="espacios">
+        <form class="form">
+            <fieldset class="fieldset">
+                <legend>Datos personales</legend>
+                <div>
+                    <label for="nombre">Ingrese su nombre</label> <br>
+                    <input id="nombre" type="text" name="nombre" placeholder="Jose David">
+                </div>
+                <div>
+                    <label for="apellido">Ingrese su apellido</label> <br>
+                    <input id="apellido" type="text" placeholder="Sanchez" required>
+                </div>
+                <div>
+                    <label for="ciudad">Ingrese su cidudad</label> <br>
+                    <input id="ciudad" type="text">
+                </div>
+            </fieldset>
+            <div>
+                <fieldset>
+                    <legend>Seleccion de genero</legend>
+                    <input type="radio" name="genero" value="masculino"> Masculino
+                    <input type="radio" name="genero" value="femenino"> Femenino
+                    <input type="radio" name="genero" value="nosabe"> No sabe
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Seleccion de Hobie</legend>
+                    <input type="checkbox" name="masculino" value="masculino"> Deportes
+                    <input type="checkbox" name="femenino" value="femenino"> Artes
+                    <input type="checkbox" name="nosabe" value="nosabe"> Tecnologia
+                </fieldset>
+            </div>
+            <div>
+                <label for="fecha"> fecha de nacimiento</label> <br>
+                <input type="date" name="fecha" id="fecha">
+            </div>
+            <div>
+                <label for="pais">Seleccione su pais</label>
+                <select name="pais" id="pais">
+                    <option value="Colombia">Colombia</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Chile">Chile</option>
+                </select>
+            </div>
+        |   </div>
+        <div>
+    </section>          
+            </div>
+            <button>Enviar</button>
+        </main>
+        <footer></footer>
+</body>
+</html>
